@@ -17,7 +17,7 @@ class SplachScreen extends StatefulWidget {
 class _SplachScreenState extends State<SplachScreen>
     with TickerProviderStateMixin {
   /*
-  jab koi object create hota ha sateful mae to es object ki entry ka liy ham initstae ka use krty hn
+  stateful widject is created so init state is used to enter a new program
    */
   late final AnimationController _controller = AnimationController(
     duration: Duration(
